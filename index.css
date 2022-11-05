@@ -1,0 +1,36 @@
+html,
+body {
+	background: #0a0a0a;
+	color: #ddd;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Fira Mono', monospace;
+	overflow-wrap: break-word;
+	inline-size: 100vw;
+	word-break: break-all;
+}
+
+a {
+	color: unset;
+}
+
+main {
+	display: grid;
+	align-items: center;
+	margin: 1em;
+}
+
+header {
+	margin-bottom: 0.4em;
+	font-size: 2em;
+}
+
+.about {
+	margin-bottom: 1em;
+}
+.donate-addr {
+	user-select: all;
+}
+.donate-msg {
+	margin-bottom: 1em;
+}
